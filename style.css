@@ -1,36 +1,62 @@
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
-  background: #f4f6f9;
+  background: #eef2f7;
 
-  /* Center everything */
+  /* Center layout */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-/* Center container */
-.center-box {
+/* Main dashboard card */
+.dashboard {
+  background: white;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  width: 420px;
   text-align: center;
 }
 
-/* Headings */
-h2 {
-  margin-top: 20px;
-  margin-bottom: 8px;
+/* Title */
+.dashboard h1 {
+  margin-bottom: 25px;
   color: #2c3e50;
 }
 
-/* Links */
-a {
-  display: block;
-  margin-bottom: 15px;
-  color: #4a90e2;
-  text-decoration: none;
-  font-weight: 500;
+/* Section blocks */
+.section {
+  margin-bottom: 20px;
+  text-align: left;
 }
 
-a:hover {
-  text-decoration: underline;
+/* Section headings */
+.section h3 {
+  margin-bottom: 8px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #6b778c;
+  text-transform: uppercase;
 }
+
+/* Links styled like dashboard items */
+.section a {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #2c3e50;
+  background: #f5f7fb;
+  transition: all 0.2s ease;
+  font-size: 14px;
+}
+
+/* Hover effect */
+.section a:hover {
+  background: #4a90e2;
+  color: white;
+  transform: translateX(4px);
+}
+``
